@@ -1,3 +1,5 @@
+from time import sleep
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
@@ -28,4 +30,5 @@ print("Shop ",shop_link)
 
 create_account_link = driver.find_element(By.XPATH, "//a[@id='createAccountSubmit']")
 print("Create Account ",create_account_link)
+sleep(1)
 driver.close()

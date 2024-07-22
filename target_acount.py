@@ -27,4 +27,5 @@ try:
     print("sign in button is shown", login_butoon)
 
 finally:
+    time.sleep(1)
     driver.quit()

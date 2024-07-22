@@ -28,5 +28,6 @@ try:
     print("your continue account " , continue_account_button)
 
 finally:
+    time.sleep(1)
     driver.quit()
 
